@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    text-shadow: 0px 0px 10px black;
+}
+
+.nave{
+    display: flex;
+    height: 8vh;
+    background-color: #2c7a64ce;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    flex: 30%;
+    margin: auto;
+    padding-left: 100px;
+}
+
+.menu{
+    display: flex;
+    flex: 70%;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#tudo{
+    display: flex;
+    flex: 70%;
+    background-color: #2c8b6f;
+    height: 100vh;
+}
+
+.imagem1{
+    flex: 40%;
+    height: 57%;
+    overflow: hidden;
+    margin-top: 70px;
+    animation: float 3s ease-in-out infinite;
+}
+
+.imagem1 img{
+    width: 400px;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+}
+
+#port{
+    display: flex;
+    height: 100vh;
+    background-color: #357964;
+    text-align: center;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.sobre{
+    height: 70vh;
+    width: 50vw;
+    margin: auto;
+    text-align: justify;
+    padding: 30px;
+    flex: 60%;
+    padding-left: 70px;
+}
+
+.sobre h1{
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    text-shadow: 0px 0px 10px black;
+    text-decoration: underline;
+}
+
+.sobre p{
+    margin-top: 30px;
+    color: aliceblue;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.pro{
+    height: 60vh;
+    width: 60vw;
+    margin: auto;
+}
+
+.pro h1{
+    margin-bottom: 20px;
+    color: aliceblue;
+    text-shadow: 0px 0px 10px black;
+}
+
+.itens{
+    display: flex;
+    margin: auto;
+    height: 40vh;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+
+.item{
+    background-color: #50f0c0;
+    width: 30%;
+    border-radius: 20px 10px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.image{
+    margin: auto;
+    border-radius: 10px 20px;
+    background-color: #2e8b6f;
+    border: 2px solid rgb(0, 174, 255);
+    height: 65%;
+    width: 80%;
+    overflow: hidden;
+}
+
+.item h2{
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: dashed black;
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid rgb(29, 182, 98);
+    background-color: #56be9f;
+    padding: 5px 10px;
+    border-radius: 10px 5px;
+    transition: 1s;
+}
+
+a:hover {
+    padding: 10px 20px;
+    background-color: #4c9c84;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(6, 183, 228);
+}
+
+.image{
+    margin-bottom: 15px;
+}
+
+.image img{
+    width: 200px;
+}
+
+#formacao{
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+    display: block;
+    height: 100vh;
+    width: 100%;
+    background-color: #4c9c84;
+}
+
+#formacao p{
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contato{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(10, 124, 109);
+    display: flex;
+}
+
+.formu{
+    height: 65vh;
+    width: 30vw;
+    background-color: #0d5248;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 20px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.formu input{
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px 10px;
+    border: 2px solid rgb(0, 174, 255);
+    transition: 0.5s;
+}
+
+.formu input:focus{
+    box-shadow: 0px 0px 20px rgb(14, 181, 236);
+}
+
+.formu h2{
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 0px 10px rgb(26, 119, 226);
+}
+
+#men{
+    margin-bottom: 35px;
+}
